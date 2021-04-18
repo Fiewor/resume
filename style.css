@@ -32,7 +32,16 @@ h2:first-of-type {
 .first img{
     width: 200px;
     height: 200px;
-    clip-path: circle(30% at 30% 40%);
+    clip-path: circle(30% at 30% 35%);
+}
+
+.second div:first-of-type a:last-of-type {
+    padding-top: 1rem;
+}
+
+
+.second div:nth-of-type(2) a:last-of-type {
+    padding-top: 1rem;
 }
 
 .second {
@@ -44,9 +53,15 @@ h2:first-of-type {
     text-decoration: none;
     color:#000;
 }
+
 .second, .third {
     display: flex;
     justify-content: space-between;
+}
+
+.third   
+.third:nth-child(2) {
+    margin-left: 2rem ;
 }
 
 .skills p {
@@ -56,6 +71,7 @@ h2:first-of-type {
     width: 20%;
     color: white;
     text-align: center;
+    display: inl;
     /* margin: 1px auto; */
 }
 
