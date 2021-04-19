@@ -5,7 +5,7 @@
     line-height: 0;
 }
 
-body {
+html {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,7 +18,7 @@ h2{
     margin: 0;
 }
 
-.first p {
+.first p, .second {
     margin: 0.2rem;
     font-weight: 600;
 }
@@ -76,6 +76,10 @@ h2:first-of-type {
     margin-left: 2rem ;
 }
 
+.third div {
+    margin-bottom: 2.5rem;
+}
+
 .skills p {
     background-color: grey;
     border-radius: 5px;
@@ -95,10 +99,9 @@ h2:first-of-type {
     width: 50%;
  }
 
- #languages:not(h2){
+ #languages #language-content {
      display: flex;
-     flex-direction: row;
-     align-content: space-between;
+     justify-content: space-between;
  }
 
  #languages p {
