@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap')
 
 * {
     margin: 0;
-    line-height: 1;
+    line-height: 0;
 }
 
 body {
@@ -12,6 +12,15 @@ body {
 h1 {
     font-size: 3rem;
     margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+.first p {
+    margin: 0.2rem;
+    font-weight: 600;
 }
 
 h2:first-of-type {
@@ -59,7 +68,10 @@ h2:first-of-type {
     justify-content: space-between;
 }
 
-.third   
+.third {
+    margin-top: 1rem;
+}  
+
 .third:nth-child(2) {
     margin-left: 2rem ;
 }
@@ -71,7 +83,7 @@ h2:first-of-type {
     width: 20%;
     color: white;
     text-align: center;
-    display: inl;
+    display: inline-block;
     /* margin: 1px auto; */
 }
 
@@ -79,9 +91,21 @@ h2:first-of-type {
     line-height: 1.2;
 }
 
-/* .third p:nth-of-type(4) {
-    color: grey;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-} */
+.third div:nth-of-type(2) {
+    width: 50%;
+ }
+
+ #languages:not(h2){
+     display: flex;
+     flex-direction: row;
+     align-content: space-between;
+ }
+
+ #languages p {
+     font-style: italic;
+ }
+
+ #interests p {
+    border: solid 1px grey;
+    border-radius: 5px;
+ }
