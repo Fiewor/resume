@@ -40,9 +40,13 @@ h2:first-of-type {
 }
 
 .first img{
-    width: 200px;
-    height: 200px;
-    clip-path: circle(30% at 30% 35%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 2rem;
 }
 
 .second div:first-of-type a:last-of-type {
@@ -78,6 +82,11 @@ h2:first-of-type {
 
 .third div {
     margin-bottom: 2.5rem;
+}
+
+.third p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
 }
 
 #skills p {
@@ -118,15 +127,14 @@ h2:first-of-type {
  }
 
  @media screen and (max-width: 768px) {
-    .first img{
-        width: 200px;
-        height: 200px;
-        clip-path: circle(30% at 30% 45%);
+    .first div {
         margin: 0;
     }
 
-    .first div {
-        margin: 0;
+    .first img {
+        width: 200px;
+        height: 100px;
+        margin-right: 1rem;
     }
 
     h1 {
